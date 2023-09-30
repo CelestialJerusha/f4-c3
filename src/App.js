@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div className="App">
+      
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
+
+import Cart from './components/cart'
+import './App.css'
+
+const Home = [
+  {
+    id: 1,
+    name: 'iPhone 9',
+    imgUrl: 'https://i.dummyjson.com/data/products/1/thumbnail.jpg',
+  },
+  {
+    id: 2,
+    name: 'iPhone 9',
+    imgUrl: 'https://i.dummyjson.com/data/products/1/thumbnail.jpg',
+  },
+  {
+    id: 3,
+    name: 'iPhone 9',
+    imgUrl: 'https://i.dummyjson.com/data/products/1/thumbnail.jpg',
+  },
+  {
+    id: 4,
+    name: 'iPhone 9',
+    imgUrl: 'https://i.dummyjson.com/data/products/1/thumbnail.jpg',
+  },
+  {
+    id: 5,
+    name: 'iPhone 9',
+    imgUrl:
+      'https://i.dummyjson.com/data/products/1/thumbnail.jpg',
+  },
+]
+
+const App = () =>  
+
+export default App
